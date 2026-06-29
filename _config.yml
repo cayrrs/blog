@@ -1,0 +1,45 @@
+# Site Settings
+title: cayy's blog
+description: "my blog where i say shit"
+url: "https://blog.caysgoodies.xyz"
+baseurl: "" 
+repository: "cayrrs/blog" # Replace with your actual repo
+
+
+remote_theme: "mmistakes/minimal-mistakes@4.28.0"
+
+
+plugins:
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
+
+
+author:
+  name: "cayy"
+  avatar: "https://avatars.githubusercontent.com/u/177371607?v=4"
+  bio: "rec roomer and vr enjoyer"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/cayrrs"
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/cayrrs"
+copyright: "© 2026 cayy. "   
