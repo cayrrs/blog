@@ -44,3 +44,6 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/cayrrs"
 copyright: "© 2026 cayy. "   
+
+include:
+  - admin   
