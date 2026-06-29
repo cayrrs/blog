@@ -1,0 +1,35 @@
+---
+search: false
+---
+
+
+$faint-purple-bg: #1a1025;      
+$nebula-accent: #8F00FF;        
+$nebula-hover: #b34dff;         
+
+
+$body-color: #e0d0ff;           
+$background-color: $faint-purple-bg;
+$footer-background-color: #0f0518; 
+
+
+$link-color: $nebula-accent;
+$link-color-hover: $nebula-hover;
+$link-color-visited: $nebula-accent;
+
+
+$border-color: $nebula-accent; 
+
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'dark' }}";
+@import "minimal-mistakes";
+
+
+a {
+  text-decoration-color: $nebula-accent;
+  text-decoration-thickness: 2px;
+}
+
+a:hover {
+  text-shadow: 0 0 8px rgba($nebula-accent, 0.4);
+}   
