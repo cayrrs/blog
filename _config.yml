@@ -37,11 +37,11 @@ defaults:
       share: false
       related: false
 
-footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/cayrrs/blog"   
+navigation:
+  - name: Home
+    link: /
+  - name: Blog
+    link: /blog/   
 
 
 
