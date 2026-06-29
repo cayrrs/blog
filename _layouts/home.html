@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<div class="bio">
+  <h1>{{ site.title }}</h1>
+  <p>{{ site.description }}</p>
+  <!-- Add your social links here manually if needed -->
+</div>
+
+<h2>Posts</h2>
+<ul class="post-list">
+  {% for post in site.posts %}
+  <li>
+    <a href="{{ post.url }}">
+      <h2>{{ post.title }}</h2>
+    </a>
+    <span class="date">{{ post.date | date: "%B %d, %Y" }}</span>
+  </li>
+  {% endfor %}
+</ul>   
