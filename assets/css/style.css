@@ -44,12 +44,10 @@ h1 { font-size: 2.2rem; margin-bottom: 0.5rem; }
 a { color: var(--link-color); text-decoration: underline; text-decoration-thickness: 1px; }
 a:hover { text-decoration-thickness: 3px; }
 
+
 /* Post List on Home Page */
 .post-list { list-style: none; padding: 0; }
 .post-list li { margin-bottom: 1.5rem; }
 .post-list h2 { font-size: 1.4rem; margin: 0; }
 .post-list .date { font-family: var(--font-mono); font-size: 0.85rem; color: var(--meta-color); }
 
-/* Bio Section */
-.bio { margin-bottom: 3rem; padding-bottom: 2rem; border-bottom: 1px solid #eee; }
-@media (prefers-color-scheme: dark) { .bio { border-bottom-color: #333; } }   
