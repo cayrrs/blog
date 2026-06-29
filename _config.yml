@@ -3,7 +3,7 @@ title: cayy's blog
 description: "my blog where i say shit"
 url: "https://blog.caysgoodies.xyz"
 baseurl: "" 
-repository: "cayrrs/blog" # Replace with your actual repo
+repository: "cayrrs/blog" 
 
 
 remote_theme: "mmistakes/minimal-mistakes@4.28.0"
@@ -42,8 +42,9 @@ footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/cayrrs"
-copyright: "© 2026 cayy. "   
+      url: "https://github.com/cayrrs/blog"   
+
+copyright: "© 2026 cayy. Powered by Jekyll."   
 
 include:
   - admin   
