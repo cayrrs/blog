@@ -2,7 +2,7 @@ backend:
   name: github
   repo: cayrrs/blog
   branch: main
-  base_url: https://sveltia-cms-auth.hodgescayden0.workers.dev  # <--- PASTE YOUR WORKER URL HERE
+  base_url: https://sveltia-cms-auth.hodgescayden0.workers.dev 
   auth_scope: public_repo
 
 media_folder: "assets/images/uploads"
