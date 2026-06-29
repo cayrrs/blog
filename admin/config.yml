@@ -1,0 +1,26 @@
+backend:
+  name: github
+  repo: cayrrs/blog
+  branch: main
+  base_url: https://sveltia-cms-auth.hodgescayden0.workers.dev  # <--- PASTE YOUR WORKER URL HERE
+  auth_scope: public_repo
+
+media_folder: "assets/images/uploads"
+public_folder: "/assets/images/uploads"
+
+collections:
+  - name: "posts"
+    label: "Blog Posts"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "single" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Categories", name: "categories", widget: "list", default: ["General"] }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Author Profile", name: "author_profile", widget: "boolean", default: true }
+      - { label: "Share", name: "share", widget: "boolean", default: false }
+      - { label: "Related", name: "related", widget: "boolean", default: false }
+      - { label: "Body", name: "body", widget: "markdown" }   
