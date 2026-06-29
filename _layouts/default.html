@@ -7,6 +7,35 @@
   <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
+  
+
+  <nav style="margin-bottom: 2rem;">
+    <a href="/" style="text-decoration: none; font-weight: bold;">← Home</a>
+  </nav>
+
+
+  <header class="bio-header" style="margin-bottom: 3rem; border-bottom: 1px solid #ccc; padding-bottom: 1rem;">
+    {% if site.author.avatar %}
+      <img src="{{ site.author.avatar }}" alt="{{ site.author.name }}" style="width: 64px; height: 64px; border-radius: 50%; float: left; margin-right: 1rem;">
+    {% endif %}
+    <div style="overflow: hidden;">
+      <h1 style="margin: 0; font-size: 1.5rem;">{{ site.author.name }}</h1>
+      <p style="margin: 0.2rem 0; color: #666;">{{ site.author.bio }}</p>
+      {% if site.author.links %}
+        <div style="margin-top: 0.5rem;">
+          {% for link in site.author.links %}
+            <a href="{{ link.url }}" style="margin-right: 1rem; text-decoration: none; font-size: 0.9rem;">{{ link.label }}</a>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+    <div style="clear: both;"></div>
+  </header>
+
   {{ content }}
+
+  <footer style="margin-top: 4rem; padding-top: 1rem; border-top: 1px solid #ccc; font-size: 0.8rem; color: #666;">
+    &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
+  </footer>
 </body>
 </html>   
