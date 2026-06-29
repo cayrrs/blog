@@ -6,7 +6,6 @@ baseurl: ""
 repository: "cayrrs/blog" 
 
 
-remote_theme: "knhash/jekyllBear"
 
 
 plugins:
