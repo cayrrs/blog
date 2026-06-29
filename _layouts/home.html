@@ -1,20 +1,18 @@
 ---
 layout: default
 ---
-<div class="bio">
-  <h1>{{ site.title }}</h1>
-  <p>{{ site.description }}</p>
-  <!-- Add your social links here manually if needed -->
-</div>
 
-<h2>Posts</h2>
-<ul class="post-list">
+<h2 style="margin-top: 0;">Posts</h2>
+<ul class="post-list" style="list-style: none; padding: 0;">
   {% for post in site.posts %}
-  <li>
-    <a href="{{ post.url }}">
-      <h2>{{ post.title }}</h2>
+  <li style="margin-bottom: 2rem;">
+    <a href="{{ post.url }}" style="text-decoration: none;">
+      <h3 style="margin: 0; font-size: 1.4rem;">{{ post.title }}</h3>
     </a>
-    <span class="date">{{ post.date | date: "%B %d, %Y" }}</span>
+    <span class="date" style="font-family: monospace; font-size: 0.85rem; color: #666;">{{ post.date | date: "%B %d, %Y" }}</span>
+    {% if post.categories %}
+      <span style="font-size: 0.8rem; color: #888; margin-left: 0.5rem;">[{{ post.categories | join: ", " }}]</span>
+    {% endif %}
   </li>
   {% endfor %}
 </ul>   
