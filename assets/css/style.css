@@ -17,6 +17,13 @@
   }
 }
 
+
+.page__content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 body {
   font-family: var(--font-main);
   background: var(--bg-color);
