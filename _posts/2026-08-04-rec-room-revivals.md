@@ -3,7 +3,7 @@ layout: single
 title: Rec Room Revivals
 date: 2026-08-04T14:12
 categories:
-  - rec room
+  - recroom
 tags:
   - RRRevival
 author_profile: true
