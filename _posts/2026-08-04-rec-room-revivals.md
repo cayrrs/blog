@@ -28,7 +28,9 @@ I genuienly didn't know this one existed, but it seems fake and if it isn't, it 
 
 Rec Room Legacy
 
-now, I haven't joined their dc server, but from what i can tell their founder is already not the best person to be up there. In Cheezit's dc server, these messages were sent out:![](/assets/images/uploads/pasted-image-1785869351708.png)
+now, I haven't joined their dc server, but from what i can tell their founder is already not the best person to be up there. In Cheezit's dc server, these messages were sent out:<figure style="text-align:center;">
+  <img src="/assets/images/uploads/pasted-image-1785869351708.png" alt="">
+</figure>
 
 Now, it was cut out of the video, so you can't see it anymore. But I did watch it before it got cut out and can confirm that what is said by Cheezit here is true.
 
