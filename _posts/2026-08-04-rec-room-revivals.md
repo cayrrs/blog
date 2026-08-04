@@ -3,9 +3,9 @@ layout: single
 title: Rec Room Revivals
 date: 2026-08-04T14:12
 categories:
-  - Rec Room Based
+  - rec room
 tags:
-  - Rec Room Revival
+  - RRRevival
 author_profile: true
 share: false
 related: false
@@ -31,6 +31,5 @@ Rec Room Legacy
 now, I haven't joined their dc server, but from what i can tell their founder is already not the best person to be up there. In Cheezit's dc server, these messages were sent out:![](/assets/images/uploads/pasted-image-1785869351708.png)
 
 Now, it was cut out of the video, so you can't see it anymore. But I did watch it before it got cut out and can confirm that what is said by Cheezit here is true.
-
 
 lowk dunno why I decided to write all of this but im bored so there goes 20 minutes!
