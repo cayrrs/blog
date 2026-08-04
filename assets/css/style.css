@@ -18,16 +18,7 @@
 }
 
 
-.page__content img {
-  display: block !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
 
-
-img {
-  outline: 5px solid red !important;
-}
 
 body {
   font-family: var(--font-main);
