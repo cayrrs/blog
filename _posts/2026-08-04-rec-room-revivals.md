@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: Rec Room Revivals
 date: 2026-08-04T14:12
 categories:
